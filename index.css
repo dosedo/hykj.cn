@@ -1,0 +1,315 @@
+.in_about{
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+.in_about .title{
+	padding-bottom: 40px;
+}
+.in_about .txt{
+	font-size: 16px;
+	line-height: 1.8;
+	margin: 0 15px;
+	color: #555;
+}
+
+
+
+
+
+/*加入我们*/
+.in_job{
+	background: #f8f8f8;
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+.in_job ul{
+	padding-top: 70px;
+}
+.in_job ul li{
+	width: 33.3333%;
+	float: left;
+	background: #fff;
+		text-align: center;
+		border: 1px solid  #e2e2e2;
+		padding-top: 30px;
+		padding-bottom: 50px;
+		-moz-box-sizing: border-box; /*Firefox3.5+*/
+		-webkit-box-sizing: border-box; /*Safari3.2+*/
+		-o-box-sizing: border-box; /*Opera9.6*/
+		-ms-box-sizing: border-box; /*IE8*/
+		box-sizing: border-box;
+		border-right: none;
+}
+.in_job ul li a{
+	color: #000;
+	display: block;
+}
+.in_job ul li:hover{
+	background: #ffa857;
+
+}
+.in_job ul li:hover a{
+	color: #fff;
+}
+.in_job ul li.brn{border-right: 1px solid  #e2e2e2;}
+.in_job ul li .img{
+	
+	height: 100px;
+	margin: 0 auto;
+
+}
+.in_job ul li.icon1 .img{
+	background:url("icon1-1.png")/*tpa=https://www.ehealth-china.com/images/icon1.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li.icon2 .img{
+	background:url("icon2-1.png")/*tpa=https://www.ehealth-china.com/images/icon2.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li.icon3 .img{
+	background:url("icon3-1.png")/*tpa=https://www.ehealth-china.com/images/icon3.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li.icon4 .img{
+	background:url("icon5-1.png")/*tpa=https://www.ehealth-china.com/images/icon5.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li.icon5 .img{
+	background:url("icon4-1.png")/*tpa=https://www.ehealth-china.com/images/icon4.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li:hover.icon1 .img{
+	background:url("icon1_h-1.png")/*tpa=https://www.ehealth-china.com/images/icon1_h.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li:hover.icon2 .img{
+	background:url("icon2_h-1.png")/*tpa=https://www.ehealth-china.com/images/icon2_h.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li:hover.icon3 .img{
+	background:url("icon3_h-1.png")/*tpa=https://www.ehealth-china.com/images/icon3_h.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li:hover.icon4 .img{
+	background:url("icon5_h-1.png")/*tpa=https://www.ehealth-china.com/images/icon5_h.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li:hover.icon5 .img{
+	background:url("icon4_h-1.png")/*tpa=https://www.ehealth-china.com/images/icon4_h.png*/ no-repeat center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+.in_job ul li .txt {
+    font-size: 18px;
+    margin-top: 32px;
+}
+.in_job ul li .txt p{
+	font-family: "Arial";
+	margin-top: 10px;
+}
+.in_job ul li.mo{
+	font-size: 32px;
+	height: 260px;
+	line-height: 180px;
+
+
+}
+.in_job ul li.mo a{
+		color: #c5c5c5;
+		display: initial;
+}
+.in_job ul li:hover.mo a{
+	color: #fff;
+}
+.fldy{ width: 100%; height: 80px; background: #e0e0e0; }
+.fldy_m{ 
+	width: 33.3333%; 
+	background: #ff7e7e;
+	height: 80px; 
+	margin: 0 auto; 
+	font-size: 32px;
+	line-height: 80px;
+	text-align: center;
+
+}
+.fldy_m a{ display: block; color: #fff; }
+
+.fldy_m a:hover{
+	background: #ffa857;
+}
+
+
+@media screen and (max-width: 1028px){
+
+
+
+.in_job ul li{
+	padding-top:4%;
+	padding-bottom:4%;
+
+}
+.in_job ul li a{
+	height: 155px;
+}
+.in_job ul li.mo{
+
+	font-size: 28px;
+	line-height: 155px;
+	height: auto;
+}
+
+.in_job ul li .img{
+	width:auto;
+	height: 80px;
+}
+
+.fldy{
+	height: 60px;
+}
+.fldy_m{
+	height: 60px;
+	line-height: 60px;
+	font-size: 24px;
+}
+
+
+
+}
+
+.f_moble{
+	display: none;
+}
+@media screen and (max-width: 767px){
+	.in_about .txt img{
+		width: auto;
+		height: 230px;
+		margin-left: -25%;
+	}
+
+
+
+    .in_job ul li .txt{
+    	margin-top: 20px;
+    }
+    .w480{
+    	clear: none;
+    }
+    .fldy{
+    	display: none;
+    }
+    .in_job ul{
+    	border-left:  1px solid #d8d8d8;
+    	border-top:  1px solid #d8d8d8;
+    	padding-top: 0;
+    	margin-top: 35px;
+    }	
+    .in_job ul li{
+    	width: 50%;
+    	padding: 4% 0;
+    	border: none;
+    	border-right: 1px solid #d8d8d8;
+    	border-bottom: 1px solid #d8d8d8; 
+    }
+    .in_job ul li a{
+    	height: 110px;
+    }
+    .in_job ul li .txt{
+    	font-size: 14px;
+    }
+    .in_job ul li .txt p{
+    	margin-top: 5px;
+    }
+    .in_job ul li .txt{
+    	margin-top: 10px;
+    }
+    .in_job ul li.mo{
+    	line-height: 110px;
+    	font-size: 18px;
+    }
+    .f_moble{
+    	display: block;
+    }
+    .fldy_m{
+    	width: 100%;
+    }
+    .in_job ul li .img{
+    	width:auto;
+    	height: 50px;
+    }
+
+    .title p{
+    	font-size: 14px;
+    	margin-top: 10px;
+    }
+
+    .in_about .txt{
+    	font-size: 14px;
+    }
+    .in_about{
+    	padding-top: 40px;
+    	padding-bottom: 70px;
+    }
+    .in_about .title {
+        padding-bottom: 30px;
+    }
+    .more{
+    	margin-top: 50px;
+    	font-size: 16px;
+    }
+    .in_conter{
+    	padding-top: 60px;
+    	padding-bottom: 70px;
+    }
+
+    .fldy_m {
+        height: 56px;
+        line-height: 56px;
+        font-size: 18px;
+    }
+    .fldy {
+    height: 56px;
+}
+
+.in_about .txt{
+	margin: 0;
+}
+
+}
+
+
+@media screen and (max-width: 479px){
+	.title p{
+	font-size: 13px;
+}
+
+.in_about{
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+.in_about .title {
+    padding-bottom: 20px;
+}
+.more{
+	margin-top: 40px;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+}
+.in_job ul li .txt {
+    font-size: 13px;
+}
+
+.in_about .txt{
+	font-size: 13px;
+}
+
+}

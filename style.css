@@ -1,0 +1,579 @@
+html,body{
+    font-family:"Microsoft YaHei";
+}
+.w1150{ width: 1028px;margin: 0 auto;position: relative; }
+
+/*头部*/
+.header{ height: 60px; width: 100%; 
+position: absolute;
+top: 30px;
+z-index: 101;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+-o-transition: all 0.6s ease;
+transition: all 0.6s ease;
+}
+.logo img{
+    margin-top: 7px;
+}
+.header .nav{ float: right; }
+.header .nav li{ 
+    float: left;
+font-size: 16px; 
+margin: 0 20px;
+line-height: 60px;
+-webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.header .nav li a{
+    color: #fff;
+}
+.header .toggle{
+    opacity: 0;
+}
+.header.active .toggle {
+    opacity: 1;
+
+}
+.header.active .toggle em:first-child, .header.active .toggle em:last-child {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.header.active .toggle:hover em:first-child {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+.header.active .toggle:hover em:last-child {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+}
+.header.active .toggle {
+    -webkit-transition: all 0.6s ease-out 0.3s;
+    -moz-transition: all 0.6s ease-out 0.3s;
+    -ms-transition: all 0.6s ease 0.3s;
+    -o-transition: all 0.6s ease-out 0.3s;
+    transition: all 0.6s ease-out 0.3s;
+    z-index: 1;
+
+}
+
+.header .toggle {
+    width: 30px;
+    height: 24px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    cursor: pointer;
+    z-index: -1;
+}
+.header .toggle em {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.header .toggle em:nth-child(2) {
+    top: 10px;
+}
+.header .toggle em:last-child {
+    top: auto;
+    bottom: 0px;
+}
+.header .toggle em:first-child {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+.header .toggle em:last-child {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+.header .toggle em, .header .toggle{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.header.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #0099d6;
+}
+.header.active .nav li {
+    opacity: 0;
+}
+
+.header.active .nav {
+    width: 200px;
+    position: fixed;
+    float: none;
+    top: 0px;
+    left: auto;
+    right: -203px;
+    border-left: 3px solid #d7d7d7;
+    bottom: 0px;
+    background-color: #fff;
+    z-index: 10;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+.header.active .nav li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.header.active .nav.show{
+    padding-top: 55px;
+}
+.header.active .nav.show li{
+      margin: 0;
+      opacity: 1;
+      margin-bottom: 10px;
+}
+.header.active .nav.show li a{
+  color: #666;
+  display: block;
+  padding-left: 40px;
+
+} 
+.header.active .nav.show li a.cur,.header.active .nav.show li a:hover{
+    background: #e1e1e1;
+    color: #000;
+}
+.chose {
+  width: 21px;
+  height: 21px;
+  background:url("chose-1.png")/*tpa=https://www.ehealth-china.com/images/chose.png*/ no-repeat center;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  position: absolute;
+  right: 15px;
+  top: 16px;
+  cursor: pointer;
+}
+.header_bg{
+    height: 60px;
+}
+/*banner*/
+.swiper-container {
+width: 100%;
+height: 100%;
+
+
+}
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+background-size: 100%;
+position: relative;
+height: 694px;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    
+    bottom: 30px;
+}
+.swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background: #fff;
+    opacity: 0.5;
+
+}
+.swiper-pagination-bullet-active{
+    opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 10px;
+}
+.swiper-slide .txt{
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: #f2f2f2;
+    width: 1200px;
+    height: 120px;
+}
+.swiper-slide .txt h1{
+
+    font-size: 36px;
+    font-weight: normal;
+
+
+}
+.swiper-slide .txt p{
+    font-size: 18px;
+    margin-top: 30px;
+    color: #FFF;
+}
+
+.title{
+    font-size:28px;
+    color: #000;
+    text-align: center;
+}
+.title p{
+    font-size: 16px;
+    color: #666;
+    margin-top: 28px;
+}
+.more{
+    font-size: 18px;
+    
+    text-align: center;
+    width: 198px;
+    height: 58px;
+    border: 1px solid  #ddd;
+    line-height: 58px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.more a{
+    color: #686868;
+    display: block;
+}
+.more a:hover{
+    color: #fff;
+    background: #ffa857;
+}
+/*联系我们*/
+.in_conter{
+    padding-top: 74px;
+    padding-bottom: 120px;
+}
+.in_conter_m{
+    margin-top: 74px;
+}
+.fl_map{
+    float: left;
+    width: 430px;
+    height: 335px;
+}
+.fr_map {
+    float: right;
+    width: 560px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+}
+.ewm{
+    width: 127px;
+    margin-top: 30px;
+}
+.ewm img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer{
+    width: 100%;
+    background: #f1f0f0;
+      text-align: center;
+       font-size: 14px;
+       color: #6b6b6b;
+       padding-bottom: 30px;
+}
+
+
+.footer_nav {
+      
+        padding: 30px 0;
+}
+.footer_nav a{
+color: #6b6b6b;
+padding: 0 10px;
+}
+
+@-webkit-keyframes fadeIn {
+from {
+opacity:0
+}
+to {
+    opacity: 1
+}
+}
+@keyframes fadeIn {
+from {
+opacity:0
+}
+to {
+    opacity: 1
+}
+}
+.fadeInDown .ren,.fadeInDown .xt1,.fadeInDown .xt2,.fadeInDown .xt3,.fadeInDown .xt4,
+.fadeInDown .xt5,.fadeInDown .xt6,.fadeInDown .xt7,.fadeInDown .xt8,.fadeInDown .xt9,
+.fadeInDown .xt10,.fadeInDown .xt11,.fadeInDown .xt12{
+    -webkit-animation-name: fadeIn;
+        -moz-animation-name: fadeIn;
+        -o-animation-name: fadeIn;
+        animation-name: fadeIn;
+}
+
+.copay{
+    line-height: 1.6;
+}
+
+
+.toTop{
+    width:32px;
+    height:32px;
+    background:url("toTop-1.png")/*tpa=https://www.ehealth-china.com/images/toTop.png*/ no-repeat center;
+    cursor:pointer;
+    position:fixed;
+    right:10px;
+    bottom:100px;
+    background-size: cover;
+}
+*html .toTop{
+    position:absolute;
+    bottom:auto;
+    top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+    margin-bottom:80px;}
+
+
+@media screen and (max-width: 1027px){
+.toTop{
+
+    right:0px;
+    bottom:50px;
+
+}
+.w1150{
+    width: 92%;
+}
+
+/*header*/
+.header{
+    top: 15px;
+}
+.header .nav,.header.active .nav{width: 160px;
+    position: fixed;
+    float: none;
+    top: 0px;
+    left: auto;
+    right: -163px;
+    border-left: 3px solid #d7d7d7;
+    bottom: 0px;
+    background-color: #fff;
+    z-index: 10;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;}
+.header .nav.show{padding-top: 80px;}
+.header .nav ul{width:100%;height:100%;}
+.header .nav li,.header .nav li a{    
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+}
+.header .nav li a{
+    width:100%;
+    float:none;
+    font-size:16px;
+    display:block;
+    padding:0 25px;
+    color:#666;
+    padding-left: 20px;
+}
+.header .nav.show li a.cur,.header .nav.show li a:hover{
+    background: #e1e1e1;
+    color: #000;
+}
+
+.header .nav .text{display:block;}
+.header .toggle{opacity:1;right:15px;}
+.header .toggle em:first-child,.header .toggle em:last-child{-webkit-transform:translateY(0);transform:translateY(0);}
+.header .toggle{z-index:1;}
+
+
+/*banner*/
+.swiper-slide .txt{
+    width: 100%;
+    
+
+}
+.fr_map{
+    width: 100%;
+    float: none;
+  
+
+}
+.fr_map .txt{
+    width: 80%;
+    float: left;
+}
+.fr_map .ewm{
+     width: 20%;
+    float: right;
+    text-align: right;
+    margin-top: 0;
+
+}
+.ewm img{
+    max-width: 100%;
+    width: auto;
+    height:auto;
+}
+.fl_map{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.swiper-slide{
+    height: 610px;
+    background-size:cover !important;
+
+}
+.swiper-slide img{
+    display: none;
+}
+.swiper-slide .txt h1{
+    font-size: 32px;
+}
+
+
+}
+
+@media screen and (max-width: 767px){
+/*banner*/
+.swiper-slide .txt{
+    height: 60px;
+}
+.swiper-slide .txt h1{
+    font-size: 24px;
+}
+.swiper-slide .txt p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+.title{
+    font-size:24px;
+}
+
+/*footer*/
+.footer{
+    padding-top: 30px;
+}
+.footer_nav{
+    display: none;
+}
+.fr_map {
+
+    font-size: 16px;
+
+}
+
+.swiper-slide{
+    height: 480px;
+    background-size: 100%;
+
+}
+
+
+.header{
+    height: 56px;
+}
+.logo img{
+    width: 90px;
+    height: auto;
+    margin-top: 13px;
+}
+
+.in_conter_m {
+    margin-top: 60px;
+}
+.copay {
+    line-height: 1.6;
+    padding: 0 3%;
+}
+.toTop{
+    width: 28px;
+    height: 28px;
+    right:0px;
+    bottom:50px;
+
+}
+
+}
+
+@media screen and (max-width: 479px){
+ .header .toggle em{
+    height: 3px;
+ }   
+    .fr_map {
+    font-size: 14px;
+}
+.fr_map .txt{
+    width: 70%;
+
+}
+.fr_map .ewm{
+     width: 30%;
+
+
+}
+.fl_map {
+    width: 100%;
+    margin-top: 20px;
+}
+.fl_map,#dituContent{
+    height: 215px !important;
+}
+.BMap_omCtrl{
+    display: none;  
+}
+.in_conter_m{
+    margin-top: 30px;
+}
+.swiper-slide{
+    height: 400px;
+
+}
+.title {
+    font-size: 18px;
+}
+
+
+}
